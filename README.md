@@ -1,14 +1,14 @@
 ﻿# LAB01
-Integrantes:
--David Alejandro Patacon Henao  
+Integrantes:  
+-David Alejandro Patacon Henao    
 -Daniel Felipe Hueso Rueda
 
 ## PARTE 1
 3. Para que sirven los comandos git add y git commit -m “mensaje”?:
 
-git add archivo.txt        # Agrega un archivo especifico
-git add .                  # Agrega TODOS los cambios en la carpeta actual
-git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente
+git add archivo.txt        # Agrega un archivo especifico  
+git add .                  # Agrega TODOS los cambios en la carpeta actual  
+git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente  
 
 ## PARTE 2
 
@@ -17,6 +17,7 @@ git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente
 6. ¿Que sucedió?
 
 Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron los cambios de uno de los nosotros. Al otro le aparecio un error donde decia que no ese estaba trabajando con la version actual. 
+
 
 
 
