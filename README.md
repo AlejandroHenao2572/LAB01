@@ -21,6 +21,7 @@ Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron
 8. Volver a repetir un cambio sobre el README.md ambas personas al tiempo para volver a tener conflictos.
 
 9. Resuelvan el conflicto con IntelliJ
+xdxdxd
    
 
 
