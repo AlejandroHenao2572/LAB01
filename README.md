@@ -18,6 +18,12 @@ git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente
 
 Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron los cambios de uno de los nosotros. Al otro le aparecio un error donde decia que no ese estaba trabajando con la version actual. 
 
+8. Volver a repetir un cambio sobre el README.md ambas personas al tiempo para volver a tener conflictos.
+
+9. Resuelvan el conflicto con IntelliJ
+   
+
+
 
 
 
