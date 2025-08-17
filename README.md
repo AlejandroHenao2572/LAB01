@@ -3,6 +3,7 @@ Integrantes:
 -David Alejandro Patacon Henao    
 -Daniel Felipe Hueso Rueda
 
+---
 ### PARTE 1
 1. Crea un repositorio localmente.  
 <img width="1066" height="63" alt="image" src="https://github.com/user-attachments/assets/af17702b-5e8c-4377-8ab6-1d56dfec2eeb" />
@@ -80,6 +81,7 @@ El equipo revisa el código, comenta, sugiere mejoras
 Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
     
 5. Creen una rama cada uno y suban sus cambios
+
 
 
 
