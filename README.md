@@ -31,17 +31,17 @@ git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente
 
 ### **PARTE 2**
 
-5. Owner y Colaborador editan el archivo README.md al mismo tiempo e intentan subir los cambios al mismo tiempo.
+1. Se escogen los roles para trabajar en equipo, una persona debe escoger ser "Owner" o Propietario del repositorio y la otra "Collaborator" o Colaborador en el repositorio.
+image
+###Integrantes
+-David Alejandro Patacon Henao
+-Daniel Felipe Hueso Rueda
 
-6. ¿Que sucedió?
+3. El owner agrega al colaborador con permisos de escritura en el repositorio que creó en la parte 1
+4. El owner le comparte la url via Teams al colaborador
+5. El colaborador acepta la invitación al repositorio
+<img width="279" height="115" alt="image" src="https://github.com/user-attachments/assets/38107d70-18de-42f6-9d3b-e204b1b268e8" />
 
-Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron los cambios de uno de los nosotros. Al otro le aparecio un error donde decia que no ese estaba trabajando con la version actual. 
-
-8. Volver a repetir un cambio sobre el README.md ambas personas al tiempo para volver a tener conflictos.
-
-9. Resuelvan el conflicto con IntelliJ
-xdxdxd
-   
 
 
 
