@@ -32,8 +32,7 @@ git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente
 ### **PARTE 2**
 
 1. Se escogen los roles para trabajar en equipo, una persona debe escoger ser "Owner" o Propietario del repositorio y la otra "Collaborator" o Colaborador en el repositorio.  
-image
-###Integrantes  
+Integrantes:    
 -David Alejandro Patacon Henao  
 -Daniel Felipe Hueso Rueda  
 
@@ -52,6 +51,7 @@ Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron
 9. Resuelvan el conflicto con IntelliJ si es posible  
 Resolvimos el conflicto con VisualStudioCode  
 <img width="975" height="249" alt="image" src="https://github.com/user-attachments/assets/6a932b18-aad4-4cc2-afd2-d860b192d291" />
+
 
 
 
