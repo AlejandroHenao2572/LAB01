@@ -42,6 +42,17 @@ image
 5. El colaborador acepta la invitación al repositorio
 <img width="279" height="115" alt="image" src="https://github.com/user-attachments/assets/38107d70-18de-42f6-9d3b-e204b1b268e8" />
 
+6. ¿Que sucedió?
+Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron los cambios de uno de los nosotros. Al otro le aparecio un error donde decia que no ese estaba trabajando con la version actual.
+
+7. La persona que perdió la competencia de subir los cambios, tiene que resolver los conflictos, cúando haces pull de los cambios, los archivos tienen los símbolos <<< === y >>> (son normales en la resolución de conflictos), estos conflictos debes resolverlos manualmente.
+<img width="975" height="218" alt="image" src="https://github.com/user-attachments/assets/33f04f6d-8e1d-4b13-a1c7-27433307fa97" />
+
+8. Volver a repetir un cambio sobre el README.md ambas personas al tiempo para volver a tener conflictos.
+9. Resuelvan el conflicto con IntelliJ si es posible
+Resolvimos el conflicto con VisualStudioCode 
+<img width="975" height="249" alt="image" src="https://github.com/user-attachments/assets/6a932b18-aad4-4cc2-afd2-d860b192d291" />
+
 
 
 
