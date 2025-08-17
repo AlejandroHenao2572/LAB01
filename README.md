@@ -3,7 +3,7 @@ Integrantes:
 -David Alejandro Patacon Henao    
 -Daniel Felipe Hueso Rueda
 
-### **PARTE 1**
+### PARTE 1
 1. Crea un repositorio localmente.  
 <img width="1066" height="63" alt="image" src="https://github.com/user-attachments/assets/af17702b-5e8c-4377-8ab6-1d56dfec2eeb" />
 
@@ -28,8 +28,8 @@ git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente
 9. Vuelve a subir los cambios y observa que todo esté bien en el repositorio remoto
 <img width="1077" height="462" alt="image" src="https://github.com/user-attachments/assets/34149d83-c7d8-484e-aa60-c90d80498bed" />
 
-
-### **PARTE 2**
+---
+### PARTE 2
 
 1. Se escogen los roles para trabajar en equipo, una persona debe escoger ser "Owner" o Propietario del repositorio y la otra "Collaborator" o Colaborador en el repositorio.  
 Integrantes:    
@@ -51,6 +51,21 @@ Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron
 9. Resuelvan el conflicto con IntelliJ si es posible  
 Resolvimos el conflicto con VisualStudioCode  
 <img width="975" height="249" alt="image" src="https://github.com/user-attachments/assets/6a932b18-aad4-4cc2-afd2-d860b192d291" />
+
+## PARTE 3
+1. ¿Hay una mejor forma de trabajar con git para no tener conflictos?  
+   Se pueden seguir las siguientes buenas practicas en git para evitar conflictos y trabajar de una mejor forma:  
+   -Actualiza antes de trabajar: git pull origin main.  
+   -Trabaja en ramas: git checkout -b feature/nueva-funcion.    
+   -Commits pequeños y claros: git commit -m "Mensaje"    
+   -Evita editar lo mismo que otros, coordinacion en equipo.    
+   -Usa rebase para mantenerse al dia: git fetch origin + git rebase origin/main  
+   -Resolver conflictos pronto y no dejar que se acumulen.  
+   -Integra con Pull Requests para revisión y control.  
+   
+3. ¿Qué es y como funciona el Pull Request?
+4. Creen una rama cada uno y suban sus cambios
+
 
 
 
