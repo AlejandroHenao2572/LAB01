@@ -65,7 +65,22 @@ Resolvimos el conflicto con VisualStudioCode
    -Integra con Pull Requests para revisión y control.  
    
 3. ¿Qué es y como funciona el Pull Request?
-4. Creen una rama cada uno y suban sus cambios
+  
+Que es:    
+Es una forma de colaborar en proyectos.  
+Permite que otros revisen el codigo antes de integrarlo. 
+Sirve para discutir, comentar y aprobar cambios.  
+
+Como funciona:  
+Se crea una rama: git checkout -b feature/nueva-funcion  
+Se subem los cambios: git push origin feature/nueva-funcion  
+En GitHub aparece el botón "Compare & pull request"  
+Se Abre el PR se explica que se cambio y por qué  
+El equipo revisa el código, comenta, sugiere mejoras  
+Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
+    
+5. Creen una rama cada uno y suban sus cambios
+
 
 
 
