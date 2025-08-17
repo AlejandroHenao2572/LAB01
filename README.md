@@ -4,6 +4,9 @@ Integrantes:
 -Daniel Felipe Hueso Rueda
 
 ### **PARTE 1**
+1. Crea un repositorio localmente.
+<img width="1066" height="63" alt="image" src="https://github.com/user-attachments/assets/af17702b-5e8c-4377-8ab6-1d56dfec2eeb" />
+
 
 
 3. Para que sirven los comandos git add y git commit -m “mensaje”?:
@@ -25,6 +28,7 @@ Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron
 9. Resuelvan el conflicto con IntelliJ
 xdxdxd
    
+
 
 
 
