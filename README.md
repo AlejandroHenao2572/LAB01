@@ -52,8 +52,9 @@ Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron
 Resolvimos el conflicto con VisualStudioCode  
 <img width="975" height="249" alt="image" src="https://github.com/user-attachments/assets/6a932b18-aad4-4cc2-afd2-d860b192d291" />
 
+---
 ## PARTE 3
-1. ¿Hay una mejor forma de trabajar con git para no tener conflictos?  
+1. ¿Hay una mejor forma de trabajar con git para no tener conflictos?    
    Se pueden seguir las siguientes buenas practicas en git para evitar conflictos y trabajar de una mejor forma:  
    -Actualiza antes de trabajar: git pull origin main.  
    -Trabaja en ramas: git checkout -b feature/nueva-funcion.    
@@ -65,6 +66,7 @@ Resolvimos el conflicto con VisualStudioCode
    
 3. ¿Qué es y como funciona el Pull Request?
 4. Creen una rama cada uno y suban sus cambios
+
 
 
 
