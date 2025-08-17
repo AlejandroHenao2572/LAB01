@@ -3,7 +3,6 @@ Integrantes:
 -David Alejandro Patacon Henao    
 -Daniel Felipe Hueso Rueda
 
----
 ## RESPUESTAS  
 ### PARTE 1
 1. Crea un repositorio localmente.  
@@ -82,6 +81,7 @@ El equipo revisa el código, comenta, sugiere mejoras
 Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
     
 5. Creen una rama cada uno y suban sus cambios
+
 
 
 
