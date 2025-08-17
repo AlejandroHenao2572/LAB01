@@ -29,8 +29,7 @@ git commit -m "Mensaje descriptivo" # Guardar esos cambios localmente
 9. Vuelve a subir los cambios y observa que todo esté bien en el repositorio remoto
 <img width="1077" height="462" alt="image" src="https://github.com/user-attachments/assets/34149d83-c7d8-484e-aa60-c90d80498bed" />
 
----
-### PARTE 2
+## PARTE 2
 
 1. Se escogen los roles para trabajar en equipo, una persona debe escoger ser "Owner" o Propietario del repositorio y la otra "Collaborator" o Colaborador en el repositorio.  
 Integrantes:    
@@ -81,6 +80,7 @@ El equipo revisa el código, comenta, sugiere mejoras
 Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
     
 5. Creen una rama cada uno y suban sus cambios
+
 
 
 
