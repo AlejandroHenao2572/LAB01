@@ -1,4 +1,4 @@
-<img width="1337" height="518" alt="image" src="https://github.com/user-attachments/assets/bd4f9f27-9510-49e4-a969-48efda3f170f" />﻿# **LAB01**
+﻿# **LAB01**
 Integrantes:  
 -David Alejandro Patacon Henao    
 -Daniel Felipe Hueso Rueda
@@ -42,6 +42,7 @@ Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron
 9. Resuelvan el conflicto con IntelliJ
 xdxdxd
    
+
 
 
 
