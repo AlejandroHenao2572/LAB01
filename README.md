@@ -54,7 +54,8 @@ Resolvimos el conflicto con VisualStudioCode
 
 ---
 ## PARTE 3
-1. ¿Hay una mejor forma de trabajar con git para no tener conflictos?    
+1. ¿Hay una mejor forma de trabajar con git para no tener conflictos?
+    
    Se pueden seguir las siguientes buenas practicas en git para evitar conflictos y trabajar de una mejor forma:  
    -Actualiza antes de trabajar: git pull origin main.  
    -Trabaja en ramas: git checkout -b feature/nueva-funcion.    
@@ -64,7 +65,7 @@ Resolvimos el conflicto con VisualStudioCode
    -Resolver conflictos pronto y no dejar que se acumulen.  
    -Integra con Pull Requests para revisión y control.  
    
-3. ¿Qué es y como funciona el Pull Request?
+2. ¿Qué es y como funciona el Pull Request?
   
 Que es:    
 Es una forma de colaborar en proyectos.  
@@ -79,7 +80,8 @@ Se Abre el PR se explica que se cambio y por qué
 El equipo revisa el código, comenta, sugiere mejoras  
 Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
     
-5. Creen una rama cada uno y suban sus cambios
+3. Creen una rama cada uno y suban sus cambios  
+  
 
 
 
