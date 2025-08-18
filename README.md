@@ -84,6 +84,7 @@ GENERE UN CONFLICTOO
    Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
     
 3. Creen una rama cada uno y suban sus cambios:
+
 "CAMBIOS EN LA RAMA PATACON"
 
 
