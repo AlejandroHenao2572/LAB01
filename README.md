@@ -83,7 +83,10 @@ Integrantes:
 3. Creen una rama cada uno y suban sus cambios:
 <img width="1227" height="546" alt="image" src="https://github.com/user-attachments/assets/75227528-9832-4d21-82aa-72e82ff74def" />
 
-4. 
+4. Tanto owner como colaborador hacen un cambio en el README.md y hacen un Pull Request (PR) a la rama main/master:  
+<img width="997" height="865" alt="image" src="https://github.com/user-attachments/assets/4f597ea2-a04b-4dab-ba52-f37290af6866" />
+
+
 
 
 
