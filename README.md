@@ -45,6 +45,9 @@ Integrantes:
    Al subir los cambios en el README y hacer push al mismo tiempo, solo se subieron los cambios de uno de los nosotros. Al otro le aparecio un error donde decia que no ese estaba trabajando con la version actual.
 
 7. La persona que perdió la competencia de subir los cambios, tiene que resolver los conflictos, cúando haces pull de los cambios, los archivos tienen los símbolos <<< === y >>> (son normales en la resolución de conflictos), estos conflictos debes resolverlos manualmente.  
+
+GENERE UN CONFLICTO
+
 <img width="975" height="218" alt="image" src="https://github.com/user-attachments/assets/33f04f6d-8e1d-4b13-a1c7-27433307fa97" />
 
 8. Volver a repetir un cambio sobre el README.md ambas personas al tiempo para volver a tener conflictos.  
