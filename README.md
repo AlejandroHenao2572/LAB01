@@ -80,10 +80,7 @@ Integrantes:
    El equipo revisa el código, comenta, sugiere mejoras  
    Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
     
-3. Creen una rama cada uno y suban sus cambios  
-  
-
-
+3. Creen una rama cada uno y suban sus cambios:
 
 
 
