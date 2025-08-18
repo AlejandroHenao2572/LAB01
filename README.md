@@ -92,6 +92,8 @@ ya la cambie desde mi rama
 
 hola lo actualice desde la rama ... otra vez 
 
+<img width="741" height="636" alt="image" src="https://github.com/user-attachments/assets/9a6d0176-cb99-420e-8ef8-cfebd0daa31b" />
+
 
 
 
