@@ -85,10 +85,12 @@ Integrantes:
 
 4. Tanto owner como colaborador hacen un cambio en el README.md y hacen un Pull Request (PR) a la rama main/master:  
 <img width="997" height="865" alt="image" src="https://github.com/user-attachments/assets/4f597ea2-a04b-4dab-ba52-f37290af6866" />
+<img width="837" height="840" alt="image" src="https://github.com/user-attachments/assets/38fa37bb-5de3-42e2-902f-c6d024ed744d" />
 
 ya la cambie desde mi rama 
 
 hola lo actualice desde la rama ... otra vez 
+
 
 
 
