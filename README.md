@@ -46,7 +46,7 @@ Integrantes:
 
 7. La persona que perdió la competencia de subir los cambios, tiene que resolver los conflictos, cúando haces pull de los cambios, los archivos tienen los símbolos <<< === y >>> (son normales en la resolución de conflictos), estos conflictos debes resolverlos manualmente.  
 
-GENERE UN CONFLICTO
+GENERE UN CONFLICTOO
 
 <img width="975" height="218" alt="image" src="https://github.com/user-attachments/assets/33f04f6d-8e1d-4b13-a1c7-27433307fa97" />
 
