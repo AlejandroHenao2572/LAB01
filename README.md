@@ -81,6 +81,10 @@ Integrantes:
    Cuando todos están de acuerdo, se aprueba y se hace merge a la rama correspondiente  
     
 3. Creen una rama cada uno y suban sus cambios:
+<img width="1227" height="546" alt="image" src="https://github.com/user-attachments/assets/75227528-9832-4d21-82aa-72e82ff74def" />
+
+4. 
+
 
 
 
