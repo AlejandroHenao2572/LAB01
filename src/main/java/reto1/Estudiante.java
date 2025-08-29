@@ -9,7 +9,7 @@ public class Estudiante {
     private int semestre;
     
     /**
-     * Constructor para crear un objeto Estudiante
+     * Constructor para crear un objeto Estudiante,mjsadja,j
      * @param nombre Nombre del estudiante
      * @param edad Edad del estudiante
      * @param correo Correo institucional
