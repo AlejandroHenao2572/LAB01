@@ -87,16 +87,14 @@ Integrantes:
 <img width="997" height="865" alt="image" src="https://github.com/user-attachments/assets/4f597ea2-a04b-4dab-ba52-f37290af6866" />
 <img width="837" height="840" alt="image" src="https://github.com/user-attachments/assets/512a2de8-27f7-4a02-ba40-cdd79697f67d" />
 
-
-ya la cambie desde mi rama 
-
-hola lo actualice desde la rama ... otra vez 
-
 <img width="741" height="636" alt="image" src="https://github.com/user-attachments/assets/9a6d0176-cb99-420e-8ef8-cfebd0daa31b" />
 
+---
 
+# RETOS
 
-
+# RETO #1
+![alt text](image.png)
 
 
 
