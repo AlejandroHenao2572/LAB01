@@ -9,3 +9,5 @@ public class CarreraParalela {
             .orElseThrow(() -> new IllegalArgumentException("La lista esta vacia"));
     }
 }
+
+
