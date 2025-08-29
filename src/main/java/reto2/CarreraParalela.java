@@ -8,6 +8,14 @@ public class CarreraParalela {
             .max(Integer::compareTo)
             .orElseThrow(() -> new IllegalArgumentException("La lista esta vacia"));
     }
-}
 
+    public static List<Integer> minimoRepetido(List<Integer> lista) {
+        int min = lista.stream()
+            .min(Integer::compareTo)
+            .orElseThrow(() -> new IllegalArgumentException("La lista está vacía"));
+        return lista.stream()
+            .map(x -> min)
+            .toList();
+    }
+}
 
