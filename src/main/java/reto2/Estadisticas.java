@@ -20,6 +20,10 @@ public class Estadisticas {
         int max = CarreraParalela.maximo(lista);   
         int min = CarreraParalela.minimo(lista).get(0);
         int cantidad = CarreraParalela.minimo(lista).get(1);
+
+        boolean esDivisorDeDos = (max % 2 == 0) ? true : false;
+        System.out.println("¿El número mayor es divisor de 2?: " + (esDivisorDeDos ? "Sí" : "No"));
+
         return new Estadisticas(max, min, cantidad);
     }
 
