@@ -1,6 +1,6 @@
 package main.java.reto4;
 
-import java.util.HashMap;
+import java.util.*;
 import java.util.List;
 
 public class reto4 {
@@ -14,6 +14,16 @@ public class reto4 {
         }
         return mapa;
     }
+  
+    public static Hashtable<String, Integer> almacenarSinDuplicados(List<Map.Entry<String, Integer>> lista) {
+        Hashtable<String, Integer> tabla = new Hashtable<>();
+        for (Map.Entry<String, Integer> par : lista) {
+            if (!tabla.containsKey(par.getKey())) {
+                tabla.put(par.getKey(), par.getValue());
+            }
+        }
+        return tabla;
+    }
     
     public static void main(String[] args) {
         List<ParClaveValor> pares = List.of(
@@ -25,7 +35,7 @@ public class reto4 {
         );
         
         HashMap<String, Integer> resultado = almacenarEnHashMap(pares);
+        Hashtable<String, Integer> resultado2 = almacenarSinDuplicados(pares);
         System.out.println("HashMap resultante: " + resultado);
+        System.out.println("Hashtable resultante: " + resultado2);
     }
-
-}
