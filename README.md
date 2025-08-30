@@ -96,6 +96,10 @@ Integrantes:
 # RETO #1
 ![alt text](image.png)
 
+# RETO #2
+<img width="1134" height="718" alt="image" src="https://github.com/user-attachments/assets/65b49b95-b7c0-43bd-8f34-bde2fe3a5b4f" />  
+<img width="1474" height="551" alt="image" src="https://github.com/user-attachments/assets/70b265d4-7dc3-4c46-a162-e58d37fcc1c1" />
+
 
 
 
