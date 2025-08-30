@@ -35,7 +35,22 @@ public class reto4 {
         );
         
         HashMap<String, Integer> resultado = almacenarEnHashMap(pares);
-        Hashtable<String, Integer> resultado2 = almacenarSinDuplicados(pares);
         System.out.println("HashMap resultante: " + resultado);
         System.out.println("Hashtable resultante: " + resultado2);
+    }
+
+    public static HashMap<String, Integer> combinarMapas(HashMap<String, Integer> hashMap, Hashtable<String, Integer> hashTable) {
+        HashMap<String, Integer> mapaCombinadoHashMap = new HashMap<>();
+
+        // Agregar elementos del Hashtable primero, tinen prioridad
+        mapaCombinadoHashMap.putAll(hashTable);
+
+        // Agregar elementos del HashMap solo si la clave no existe ya
+        for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+            if (!mapaCombinadoHashMap.containsKey(entry.getKey())) {
+                mapaCombinadoHashMap.put(entry.getKey(), entry.getValue());
+            }
+        }
+
+        return mapaCombinadoHashMap;
     }
