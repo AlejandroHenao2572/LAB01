@@ -98,11 +98,11 @@ public class reto4 {
     }
     
     public static void main(String[] args) {
-        // Datos de ejemplo segun los requisitos
+        // Datos de ejemplo segun los requisitos  
         HashMap<String, Integer> hashMapEjemplo = new HashMap<>();
         hashMapEjemplo.put("oro", 5);
         hashMapEjemplo.put("plata", 3);
-        hashMapEjemplo.put("oro", 7);  // Este sobrescribe el anterior
+        hashMapEjemplo.put("oro", 7);  // Este sobrescribe el anterio
         hashMapEjemplo.put("diamante", 10);
         
         Hashtable<String, Integer> hashTableEjemplo = new Hashtable<>();
