@@ -54,6 +54,21 @@ public class reto4 {
         System.out.println("}");
     }
     
+    public static void imprimirClavesOrdenadasAsc(HashMap<String, Integer> mapa, String nombreMapa) {
+        List<String> clavesOrdenadas = new ArrayList<>(mapa.keySet());
+        Collections.sort(clavesOrdenadas);
+        System.out.print(nombreMapa + " (claves ordenadas): {");
+        boolean primero = true;
+        for (String clave : clavesOrdenadas) {
+            if (!primero) {
+                System.out.print(", ");
+            }
+            System.out.print(clave + "=" + mapa.get(clave));
+            primero = false;
+        }
+        System.out.println("}");
+    }
+    
     public static void main(String[] args) {
         List<ParClaveValor> pares = List.of(
             new ParClaveValor("a", 1),
@@ -72,5 +87,7 @@ public class reto4 {
         System.out.println("Mapa combinado: " + mapaCombinadoHashMap);
         System.out.println("Impresion con claves en mayusculas");
         imprimirConClavesMayusculas(resultado, "HashMap Mayusculas");
+        System.out.println("Impresion con claves ordenadas ascendentemente");
+        imprimirClavesOrdenadasAsc(resultado, "HashMap");
     }
 }
