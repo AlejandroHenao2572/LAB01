@@ -22,4 +22,8 @@ public class Estadisticas {
         int cantidad = CarreraParalela.minimo(lista).get(1);
         return new Estadisticas(max, min, cantidad);
     }
+
+    public boolean esMaximoMultiploDeDos() {
+        return (maximo % 2 == 0) ? true : false;
+    }
 }
