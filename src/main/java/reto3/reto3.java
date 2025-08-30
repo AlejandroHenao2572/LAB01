@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class reto3 {
     public static String repetirMensaje(String mensaje) {
         return IntStream.range(0, 3)
-            .mapToObj(_ -> mensaje)
+            .mapToObj(x -> mensaje)
             .collect(Collectors.joining(" "));
     }
 
