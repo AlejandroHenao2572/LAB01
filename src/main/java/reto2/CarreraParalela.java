@@ -17,5 +17,6 @@ public class CarreraParalela {
             .map(x -> min)
             .toList();
     }
+    
 }
 
