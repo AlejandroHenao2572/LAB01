@@ -1,13 +1,13 @@
 package main.java.reto3;
 
+import java.util.stream.IntStream;
+import java.util.stream.Collectors;
+
 public class reto3 {
     public static String repetirMensaje(String mensaje) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < 3; i++) {
-            sb.append(mensaje);
-            if (i < 2) sb.append(" ");
-        }
-        return sb.toString();
+        return IntStream.range(0, 3)
+            .mapToObj(_ -> mensaje)
+            .collect(Collectors.joining(" "));
     }
 
     public static String invertirMensaje(String mensaje) {
@@ -20,9 +20,14 @@ public class reto3 {
     }
 
     public static void main(String[] args) {
-        String resultado = repetirMensaje("Hola mundo");
-        String resultado2 = invertirMensaje("Hola mundo");
-        String resultado3 = repetirEInvertir("Hola mundo");
+        // Uso de lambda para invocar la funcion
+        java.util.function.Function<String, String> repetir = reto3::repetirMensaje;
+        java.util.function.Function<String, String> invertir = reto3::invertirMensaje;
+        java.util.function.Function<String, String> repetirEInvertir = reto3::repetirEInvertir;
+        
+        String resultado = repetir.apply("Hola mundo");
+        String resultado2 = invertir.apply("Hola mundo");
+        String resultado3 = repetirEInvertir.apply("Hola mundo");
         System.out.println("Repetir mensaje: " + resultado);
         System.out.println("Invertir mensaje: " + resultado2);
         System.out.println("Repetir 3 veces e invertir: " + resultado3); 
