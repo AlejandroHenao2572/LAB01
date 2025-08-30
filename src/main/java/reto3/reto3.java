@@ -14,7 +14,7 @@ public class reto3 {
         return new StringBuffer(mensaje).reverse().toString();
     }
 
-public static String repetirEInvertir(String mensaje) {
+    public static String repetirEInvertir(String mensaje) {
         String mensajeRepetido = repetirMensaje(mensaje);
         return invertirMensaje(mensajeRepetido);
     }
