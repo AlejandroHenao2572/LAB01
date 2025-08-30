@@ -126,6 +126,15 @@ Ejecucion:
 Evidencia commits:
 <img width="1150" height="201" alt="image" src="https://github.com/user-attachments/assets/2c78f5f5-bc14-4271-b6ff-303f9a8b7c4c" />
 
+## RETO #6
+
+Ejecucion:
+<img width="658" height="130" alt="image" src="https://github.com/user-attachments/assets/802a85dc-2a00-44c6-9c33-e3edcd12524f" />
+
+Evidencia commits:
+<img width="957" height="64" alt="image" src="https://github.com/user-attachments/assets/09f2c00d-5ab0-4f91-9922-8a85fadaf32c" />
+
+
 
 
 
