@@ -1,6 +1,7 @@
 package main.java.reto4;
 
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.List;
 
 public class reto4 {
@@ -28,7 +29,7 @@ public class reto4 {
     public static HashMap<String, Integer> combinarMapas(HashMap<String, Integer> hashMap, Hashtable<String, Integer> hashTable) {
         HashMap<String, Integer> mapaCombinadoHashMap = new HashMap<>();
         
-        // Agregar elementos del Hashtable primero, tinen prioridad
+        // Agregar elementos del Hashtable primero, tienen prioridad
         mapaCombinadoHashMap.putAll(hashTable);
         
         // Agregar elementos del HashMap solo si la clave no existe ya
@@ -39,6 +40,22 @@ public class reto4 {
         }
         
         return mapaCombinadoHashMap;
+    }
+    
+    public static HashMap<String, Integer> convertirClavesAMayusculas(HashMap<String, Integer> mapa) {
+        return mapa.entrySet().stream()
+                .collect(Collectors.toMap(
+                    entry -> entry.getKey().toUpperCase(),
+                    Map.Entry::getValue,
+                    (existing, _) -> existing,
+                    HashMap::new
+                ));
+    }
+    
+    public static void imprimirMapaOrdenadoPorClave(HashMap<String, Integer> mapa) {
+        mapa.entrySet().stream()
+                .sorted(Map.Entry.comparingByKey())
+                .forEach(entry -> System.out.println("Clave: " + entry.getKey() + " | Valor: " + entry.getValue()));
     }
     
     public static void imprimirConClavesMayusculas(HashMap<String, Integer> mapa, String nombreMapa) {
@@ -69,25 +86,31 @@ public class reto4 {
         System.out.println("}");
     }
     
-    public static void main(String[] args) {
-        List<ParClaveValor> pares = List.of(
-            new ParClaveValor("a", 1),
-            new ParClaveValor("b", 2),
-            new ParClaveValor("a", 3), // Esta clave duplicada sera ignorada
-            new ParClaveValor("c", 4),
-            new ParClaveValor("b", 5)  // Esta clave duplicada sera ignorada
-        );
+    public static void combinarYProcesarMapas(HashMap<String, Integer> hashMap, Hashtable<String, Integer> hashTable) {
+        // Paso 1: Usar el metodo existente para combinar mapas
+        HashMap<String, Integer> mapaCombinado = combinarMapas(hashMap, hashTable);
         
-        HashMap<String, Integer> resultado = almacenarEnHashMap(pares);
-        Hashtable<String, Integer> resultado2 = almacenarSinDuplicados(pares);
-        HashMap<String, Integer> mapaCombinadoHashMap = combinarMapas(resultado, resultado2);
-
-        System.out.println("HashMap resultante: " + resultado);
-        System.out.println("Hashtable resultante: " + resultado2);
-        System.out.println("Mapa combinado: " + mapaCombinadoHashMap);
-        System.out.println("Impresion con claves en mayusculas");
-        imprimirConClavesMayusculas(resultado, "HashMap Mayusculas");
-        System.out.println("Impresion con claves ordenadas ascendentemente");
-        imprimirClavesOrdenadasAsc(resultado, "HashMap");
+        // Paso 2: Usar el metodo existente para convertir claves a mayusculas
+        HashMap<String, Integer> mapaConClavesMayusculas = convertirClavesAMayusculas(mapaCombinado);
+        
+        // Paso 3: Usar el metodo existente para imprimir ordenado por clave
+        imprimirMapaOrdenadoPorClave(mapaConClavesMayusculas);
+    }
+    
+    public static void main(String[] args) {
+        // Datos de ejemplo segun los requisitos
+        HashMap<String, Integer> hashMapEjemplo = new HashMap<>();
+        hashMapEjemplo.put("oro", 5);
+        hashMapEjemplo.put("plata", 3);
+        hashMapEjemplo.put("oro", 7);  // Este sobrescribe el anterior
+        hashMapEjemplo.put("diamante", 10);
+        
+        Hashtable<String, Integer> hashTableEjemplo = new Hashtable<>();
+        hashTableEjemplo.put("plata", 8);
+        hashTableEjemplo.put("rubi", 4);
+        hashTableEjemplo.put("oro", 12);
+        hashTableEjemplo.put("esmeralda", 6);
+        
+        combinarYProcesarMapas(hashMapEjemplo, hashTableEjemplo);
     }
 }
