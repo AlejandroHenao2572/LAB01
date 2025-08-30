@@ -120,6 +120,12 @@ Historial de commits:
 Conflicto generado por subir funciones con ambas colecciones
 ![alt text](image-3.png)
 
+Ejecucion:  
+<img width="899" height="603" alt="image" src="https://github.com/user-attachments/assets/d627c778-8ef6-4ddf-b24d-55d347274d3f" />
+
+Evidencia commits:
+<img width="1150" height="201" alt="image" src="https://github.com/user-attachments/assets/2c78f5f5-bc14-4271-b6ff-303f9a8b7c4c" />
+
 
 
 
