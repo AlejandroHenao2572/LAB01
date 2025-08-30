@@ -121,7 +121,7 @@ public class reto5 {
 
     // Metodo que demuestra la funcionalidad de multiplos de 5
     public static void procesarMultiplosDe5() {
-        System.out.println("PROCESAMIENTO DE MULTIPLOS DE 5\n");
+        System.out.println(" PROCESAMIENTO DE MULTIPLOS DE 5\n");
         
         TreeSet<Integer> numerosAleatorios = generarNumerosAleatoriosTreeSet(15);
         System.out.println("Números aleatorios generados (orden ascendente):");
@@ -135,7 +135,7 @@ public class reto5 {
 
     // Metodo que demuestra la funcionalidad de multiplos de 3
     public static void procesarMultiplosDe3() {
-        System.out.println("PROCESAMIENTO DE MULTIPLOS DE 3\n");
+        System.out.println("PROCESAMIENTO DE MULTIPLOS  DE 3\n");
         
         reto5 reto = new reto5();
         reto.procesarNumerosAleatorios();
