@@ -9,7 +9,7 @@ public class CarreraParalela {
             .orElseThrow(() -> new IllegalArgumentException("La lista esta vacia"));
     }
 
-    public static List<Integer> minimoRepetido(List<Integer> lista) {
+    public static List<Integer> minimo(List<Integer> lista) {
         int min = lista.stream()
             .min(Integer::compareTo)
             .orElseThrow(() -> new IllegalArgumentException("La lista está vacía"));
