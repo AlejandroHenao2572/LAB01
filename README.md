@@ -154,12 +154,13 @@ HashMap permite llaves y valores nulos y no es sincronizado, por lo que es más 
 filter() recibe un predicado y selecciona solo los elementos que cumplen esa condición. Retorna un nuevo stream con los elementos filtrados.
 
 10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
-   1.	Posicionarse en develop:
+-Posicionarse en develop:
    git checkout develop
-   2.	Actualizar develop:
+-Actualizar develop:
    git pull origin develop
-   3.	Crear la nueva rama:
+-Crear la nueva rama:
    git checkout -b feature/nueva-funcionalidad
+
 
 
 
