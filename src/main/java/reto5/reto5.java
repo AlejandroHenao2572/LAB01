@@ -46,17 +46,8 @@ public class reto5 {
         numeros.forEach(numero -> System.out.print(numero + " "));
         System.out.println("\n");
     }
-<<<<<<< HEAD
 
     public static TreeSet<Integer> generarNumerosAleatoriosTreeSet(int cantidad) {
-=======
-        
-    public static void main(String[] args) {
-        reto5 reto = new reto5();
-        reto.procesarNumerosAleatorios();
-
-    public static TreeSet<Integer> generarNumerosAleatorios(int cantidad) {
->>>>>>> 6177f7d9c9b6491d965da7d827503b7fcb2e26c2
         Random random = new Random();
         TreeSet<Integer> numeros = new TreeSet<>();
         while (numeros.size() < cantidad) {
@@ -71,10 +62,6 @@ public class reto5 {
                 .collect(Collectors.toCollection(TreeSet::new));
     }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 6177f7d9c9b6491d965da7d827503b7fcb2e26c2
     public static void imprimirConLambda(Set<Integer> numeros) {
         numeros.forEach(n -> System.out.println("Número: " + n));
     }
@@ -143,7 +130,6 @@ public class reto5 {
         TreeSet<Integer> numerosFiltrados = eliminarMultiplosDeCinco(numerosAleatorios);
         System.out.println("\nNúmeros después de eliminar múltiplos de 5:");
         imprimirConLambda(numerosFiltrados);
-<<<<<<< HEAD
         System.out.println();
     }
 
@@ -160,7 +146,5 @@ public class reto5 {
         procesarMultiplosDe3();  
         procesarMultiplosDe5();    
         procesarColecciones();    
-=======
->>>>>>> 6177f7d9c9b6491d965da7d827503b7fcb2e26c2
     }
 }
