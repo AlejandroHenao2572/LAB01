@@ -105,6 +105,10 @@ Integrantes:
 <img width="472" height="65" alt="image" src="https://github.com/user-attachments/assets/a461f05c-ad70-47f1-b800-67457dc4611d" />  
 <img width="832" height="601" alt="image" src="https://github.com/user-attachments/assets/78c7ad33-e5ec-4dd3-8a28-3d229c3362ef" />  
 
+# RETO #4
+Conflicto generado por funciones de hashtable y hashmap  
+![alt text](image-1.png)  
+![alt text](image-2.png)  
 
 
 

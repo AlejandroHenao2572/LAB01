@@ -15,14 +15,30 @@ public class reto4 {
         return mapa;
     }
   
-    public static Hashtable<String, Integer> almacenarSinDuplicados(List<Map.Entry<String, Integer>> lista) {
+    public static Hashtable<String, Integer> almacenarSinDuplicados(List<ParClaveValor> pares) {
         Hashtable<String, Integer> tabla = new Hashtable<>();
-        for (Map.Entry<String, Integer> par : lista) {
-            if (!tabla.containsKey(par.getKey())) {
-                tabla.put(par.getKey(), par.getValue());
+        for (ParClaveValor par : pares) {
+            if (!tabla.containsKey(par.clave)) {
+                tabla.put(par.clave, par.valor);
             }
         }
         return tabla;
+    }
+    
+    public static HashMap<String, Integer> combinarMapas(HashMap<String, Integer> hashMap, Hashtable<String, Integer> hashTable) {
+        HashMap<String, Integer> mapaCombinadoHashMap = new HashMap<>();
+        
+        // Agregar elementos del Hashtable primero, tinen prioridad
+        mapaCombinadoHashMap.putAll(hashTable);
+        
+        // Agregar elementos del HashMap solo si la clave no existe ya
+        for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+            if (!mapaCombinadoHashMap.containsKey(entry.getKey())) {
+                mapaCombinadoHashMap.put(entry.getKey(), entry.getValue());
+            }
+        }
+        
+        return mapaCombinadoHashMap;
     }
     
     public static void main(String[] args) {
@@ -35,22 +51,11 @@ public class reto4 {
         );
         
         HashMap<String, Integer> resultado = almacenarEnHashMap(pares);
+        Hashtable<String, Integer> resultado2 = almacenarSinDuplicados(pares);
+        HashMap<String, Integer> mapaCombinadoHashMap = combinarMapas(resultado, resultado2);
+
         System.out.println("HashMap resultante: " + resultado);
         System.out.println("Hashtable resultante: " + resultado2);
+        System.out.println("Mapa combinado: " + mapaCombinadoHashMap);
     }
-
-    public static HashMap<String, Integer> combinarMapas(HashMap<String, Integer> hashMap, Hashtable<String, Integer> hashTable) {
-        HashMap<String, Integer> mapaCombinadoHashMap = new HashMap<>();
-
-        // Agregar elementos del Hashtable primero, tinen prioridad
-        mapaCombinadoHashMap.putAll(hashTable);
-
-        // Agregar elementos del HashMap solo si la clave no existe ya
-        for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
-            if (!mapaCombinadoHashMap.containsKey(entry.getKey())) {
-                mapaCombinadoHashMap.put(entry.getKey(), entry.getValue());
-            }
-        }
-
-        return mapaCombinadoHashMap;
-    }
+}
