@@ -116,6 +116,9 @@ Ejecucion del reto:
 Historial de commits:
 <img width="1247" height="371" alt="image" src="https://github.com/user-attachments/assets/a3e82122-1dd3-485d-ad9c-6e2a1cabe5e1" />  
 
+## RETO #5
+Conflicto generado por subir funciones con ambas colecciones
+![alt text](image-3.png)
 
 
 
