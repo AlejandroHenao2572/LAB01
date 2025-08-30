@@ -110,6 +110,15 @@ Conflicto generado por funciones de hashtable y hashmap
 ![alt text](image-1.png)  
 ![alt text](image-2.png)  
 
+Ejecucion del reto:  
+<img width="670" height="521" alt="image" src="https://github.com/user-attachments/assets/2af5d2ed-64dd-40dc-8a91-fe68395a4eeb" />  
+
+Historial de commits:
+<img width="1247" height="371" alt="image" src="https://github.com/user-attachments/assets/a3e82122-1dd3-485d-ad9c-6e2a1cabe5e1" />  
+
+
+
+
 
 
 
