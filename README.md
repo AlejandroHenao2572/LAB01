@@ -134,6 +134,33 @@ Ejecucion:
 Evidencia commits:
 <img width="957" height="64" alt="image" src="https://github.com/user-attachments/assets/09f2c00d-5ab0-4f91-9922-8a85fadaf32c" />
 
+---
+
+## PARTE 3 - Cuestionario
+
+1. ¿Cuál es la diferencia entre git merge y git rebase?
+Git merge combina el historial de dos ramas en una sola, generando un commit de merge. Git rebase en cambio "reescribe" la historia, aplicando los commits de una rama sobre otra como si se hubieran hecho en secuencia. La diferencia clave es que merge conserva la historia completa mientras que rebase genera un historial más lineal.
+
+2. Si dos ramas modifican la misma línea de un archivo ¿Qué sucede al hacer merge?
+Se produce un conflicto. Git no sabe qué cambio conservar, entonces marca esa línea en el archivo para que el desarrollador resuelva manualmente cuál de los cambios (o ambos) deben mantenerse.
+
+5. ¿Para qué sirve git stash y git pop?
+git stash guarda temporalmente los cambios que no se han hecho commit, como en una "caja". git pop recupera esos cambios guardados y los aplica de nuevo al área de trabajo.
+
+6. ¿Qué diferencia hay entre HashMap y HashTable?
+HashMap permite llaves y valores nulos y no es sincronizado, por lo que es más rápido. HashTable no permite valores nulos y es sincronizado, pero eso lo hace más lento en operaciones concurrentes.
+
+9. ¿Qué hace el método stream().filter() y qué retorna?
+filter() recibe un predicado y selecciona solo los elementos que cumplen esa condición. Retorna un nuevo stream con los elementos filtrados.
+
+10. Describe el paso a paso de cómo crear una rama desde develop si es una funcionalidad nueva.
+   1.	Posicionarse en develop:
+   git checkout develop
+   2.	Actualizar develop:
+   git pull origin develop
+   3.	Crear la nueva rama:
+   git checkout -b feature/nueva-funcionalidad
+
 
 
 
